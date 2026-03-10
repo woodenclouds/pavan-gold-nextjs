@@ -103,17 +103,17 @@ export default function Footer() {
               <ul className="flex flex-col gap-3 text-sm text-muted-foreground">
                 <li>
                   <p className="leading-relaxed">
-                    PAVAN GOLD
+                    <span className="font-semibold text-primary">Regd. Office:</span>
                     <br />
-                    20/29, A-C, P-R, K.M. Complex,
+                    MITHRA GOLD AND DIAMONDS LLP
                     <br />
-                    Thazhepalam, Town Hall Road,
+                    20/29, P.Q.R.K.M Complex,
                     <br />
-                    Tirur, Malappuram - 670101
+                    Thazhepalam, Tirur - 676101
                   </p>
                 </li>
                 <li className="mt-2">
-                  <span className="font-semibold text-primary">Telephone: </span>
+                  <span className="font-semibold text-primary">Ph: </span>
                   <a
                     href="tel:04942423916"
                     className="transition-colors hover:text-primary"
@@ -122,12 +122,12 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <span className="font-semibold text-primary">Mobile: </span>
+                  <span className="font-semibold text-primary">Toll free: </span>
                   <a
-                    href="tel:+919846192222"
+                    href="tel:18002129899"
                     className="transition-colors hover:text-primary"
                   >
-                    +91 98461 92222
+                    1800 212 9899
                   </a>
                 </li>
                 <li>
@@ -138,6 +138,13 @@ export default function Footer() {
                   >
                     mail@pavangold.com
                   </a>
+                </li>
+                <li className="mt-2 border-t border-border pt-2 text-[10px] uppercase tracking-wider opacity-70">
+                  <div className="flex flex-col gap-1">
+                    <span>TAN: CHNM04593B</span>
+                    <span>PAN: AAYFM7046A</span>
+                    <span>GSTIN: 32AAYFM7046A1Z9</span>
+                  </div>
                 </li>
               </ul>
             </div>
