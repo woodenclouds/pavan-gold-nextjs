@@ -181,10 +181,24 @@ export default function Footer() {
           />
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-4 text-center text-xs text-muted-foreground sm:flex-row sm:text-left">
+        <div className="flex flex-col items-center justify-between gap-4 text-center text-xs text-muted-foreground sm:flex-row sm:text-left font-medium">
           <p>
             &copy; {new Date().getFullYear()} PAVAN GOLD. All rights reserved.
           </p>
+          <div className="flex items-center gap-6">
+            <Link 
+              href="/privacy-policy" 
+              className="transition-colors hover:text-primary"
+            >
+              Privacy Policy
+            </Link>
+            <Link 
+              href="/terms-and-conditions" 
+              className="transition-colors hover:text-primary"
+            >
+              Terms & Conditions
+            </Link>
+          </div>
           {/* <p>MITHRA GOLD AND DIAMONDS LLP</p> */}
         </div>
       </div>
