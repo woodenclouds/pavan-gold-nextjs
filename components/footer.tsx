@@ -181,25 +181,40 @@ export default function Footer() {
           />
         </div>
 
-        <div className="flex flex-col items-center justify-between gap-4 text-center text-xs text-muted-foreground sm:flex-row sm:text-left font-medium">
-          <p>
-            &copy; {new Date().getFullYear()} PAVAN GOLD. All rights reserved.
-          </p>
-          <div className="flex items-center gap-6">
-            <Link 
-              href="/privacy-policy" 
-              className="transition-colors hover:text-primary"
-            >
-              Privacy Policy
-            </Link>
-            <Link 
-              href="/terms-and-conditions" 
-              className="transition-colors hover:text-primary"
-            >
-              Terms & Conditions
-            </Link>
+        <div className="mt-8 flex flex-col items-center gap-6 border-t border-border pt-8 text-xs text-muted-foreground font-medium">
+          <div className="flex w-full flex-col items-center justify-between gap-y-4 md:flex-row">
+            <p>
+              &copy; {new Date().getFullYear()} PAVAN GOLD. All rights reserved.
+            </p>
+            
+            <div className="flex items-center gap-6">
+              <Link 
+                href="/privacy-policy" 
+                className="transition-colors hover:text-primary whitespace-nowrap"
+              >
+                Privacy Policy
+              </Link>
+              <span className="hidden sm:inline w-px h-3 bg-border opacity-50" />
+              <Link 
+                href="/terms-and-conditions" 
+                className="transition-colors hover:text-primary whitespace-nowrap"
+              >
+                Terms & Conditions
+              </Link>
+            </div>
           </div>
-          {/* <p>MITHRA GOLD AND DIAMONDS LLP</p> */}
+
+          <p className="opacity-80">
+            Developed by{" "}
+            <a 
+              href="https://woodenclouds.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:underline transition-all"
+            >
+              Woodenclouds
+            </a>
+          </p>
         </div>
       </div>
     </footer>
