@@ -36,7 +36,7 @@ export default function Footer() {
               </p>
               <div className="mt-2 flex gap-4">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/pavangoldofficial?igsh=MW1uZm9xcWEzd2duNQ=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all duration-300 hover:border-primary hover:bg-primary hover:text-primary-foreground"
@@ -45,7 +45,7 @@ export default function Footer() {
                   <Instagram className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/share/1AsJQ9uNP3/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all duration-300 hover:border-primary hover:bg-primary hover:text-primary-foreground"
